@@ -1,0 +1,131 @@
+:root {
+  font-family: sans-serif;
+}
+
+h1, h2, h3 {
+  text-transform: uppercase;
+}
+
+h1 {
+  text-align: center;
+}
+
+body {
+  font-size: 10pt;
+}
+
+/* a {
+  color: black;
+} */
+
+.contact {
+  text-align: center;
+}
+
+.contact-list {
+  padding-left: 0;
+  list-style: none;
+}
+
+.contact-item {
+  display: inline;
+}
+
+.contact-item::after {
+  content: ' | ';
+}
+
+.contact-item:last-of-type::after {
+  content: '';
+}
+
+.summary {
+  text-align: center;
+}
+
+.organization {
+  font-weight: bold;
+}
+
+.location {
+  float: right;
+}
+
+.description {
+  font-style: italic;
+}
+
+.years {
+  float: right;
+}
+
+.skill-list {
+  list-style: none;
+}
+
+.skill-item {
+  display: inline;
+}
+
+.skill-item::after {
+  content: ' \2022\00a0';
+}
+
+.skill-item:last-of-type::after {
+  content: '';
+}
+
+.experience-list {
+  list-style: none;
+}
+
+.experience-item {
+  margin-bottom: 10pt;
+}
+
+.task-list {
+  list-style: disc;
+}
+
+.certification-list {
+  list-style: none;
+}
+
+.certification-description {
+  font-weight: bold;
+  font-style: normal;
+}
+
+.certification-organization {
+  font-weight: normal;
+  font-style: normal;
+}
+
+.award-list {
+  list-style: none;
+}
+
+.award-item {
+  margin-bottom: 10pt;
+}
+
+footer {
+  margin-top: 30pt;
+  text-align: center;
+  font-size: 8pt;
+  color: #555;
+}
+
+footer a {
+  color: #555;
+}
+
+@media print {
+  a {
+    text-decoration: none;
+  }
+
+  /* footer {
+    display: none;
+  } */
+}

@@ -1,0 +1,69 @@
+@page {
+  margin: 0.5in;
+}
+
+.resume {
+  width: 8.5in;
+  padding: 0.5in;
+  border: 2px solid gray;
+}
+
+.resume-content {
+  margin: 0.5in;
+}
+
+.contact-bar {
+  margin: 1em 0;
+}
+
+.summary {
+  margin: 1em 0;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+body {
+  font-size: 10pt;
+}
+
+address {
+  display: inline-block;
+  font-style: normal;
+}
+
+.address--street,
+.address--city {
+  display: inline;
+}
+
+.address--street::after {
+  content: ', ';
+}
+
+.address-state::after {
+  content: ' ';
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 24pt;
+}
+
+h2 {
+  font-size: 13pt;
+}
+
+h3 {
+  font-size: 11pt;
+}
+
+a {
+  /* text-decoration: none; */
+  color: black;
+}
