@@ -1,0 +1,133 @@
+{
+  "name": "John Q Smith",
+  "contact": {
+    "address": "1234 Some St, Atown, KS, 66012",
+    "phone": "555-555-5555",
+    "email": "john.q.smith@example.com",
+    "website": "example.com"
+  },
+  "summary": {
+    "heading": "Software Engineer",
+    "description": "Experienced Software Engineer. Writes the best code. Team player. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quam sapien, ornare nec libero sed, lobortis placerat est. Vestibulum lobortis orci nibh, nec elementum nulla vestibulum mattis. Sed mauris nisl. "
+  },
+  "sections": [
+    {
+      "heading": "Skills",
+      "type": "Skill",
+      "items": [
+        "C#",
+        "Python",
+        "JavaScript",
+        ".NET",
+        "React",
+        "Lorem",
+        "Ipsum",
+        "Dolor",
+        "Sit",
+        "Amet",
+        "Consectetur",
+        "Adipiscing",
+        "Elit",
+        "Nam",
+        "Quam",
+        "Sapien",
+        "Ornare",
+        "Nec",
+        "Libero",
+        "Sed",
+        "Lobortis",
+        "Placerat",
+        "Est"
+      ]
+    },
+    {
+      "heading": "Work Experience",
+      "type": "Experience",
+      "items": [
+        {
+          "organization": "Acme Corporation",
+          "location": "Atown, KS",
+          "description": "Software Engineer",
+          "startYear": 2015,
+          "endYear": "Present",
+          "tasks": [
+            "Wrote code",
+            "Debugged code",
+            "Reviewed code",
+            "Deployed code",
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+            "Praesent maximus interdum cursus",
+            "Nulla nec semper urna",
+            "Vestibulum commodo id nisi et varius",
+            "Donec non nisl id est vestibulum tincidunt",
+            "Nam ut ex placerat, vulputate nisi quis, accumsan enim",
+            "Quisque quis urna eu est posuere commodo",
+            "Fusce ac varius nulla, sit amet rutrum libero",
+            "Nullam magna erat, sollicitudin a mollis ac, blandit ut ligula",
+            "Donec pellentesque id justo in placerat",
+            "Sed vehicula nibh ut vehicula facilisis",
+            "Sed ut condimentum magna",
+            "Nam maximus, massa ac lobortis commodo, sem velit feugiat odio, eu placerat erat ligula eget orci",
+            "Quisque varius purus eu felis maximus, sit amet condimentum ipsum pellentesque",
+            "In hac habitasse platea dictumst",
+            "Ut in felis tristique, dignissim tellus eget, malesuada nibh",
+            "Duis vitae placerat erat"
+          ]
+        },
+        {
+          "organization": "A Great Place to Intern",
+          "location": "Atown, KS",
+          "description": "Internship",
+          "startYear": "2013",
+          "endYear": "2014",
+          "tasks": [
+            "Interned",
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+            "Nam quam sapien, ornare nec libero sed, lobortis placerat est",
+            "Vestibulum lobortis orci nibh, nec elementum nulla vestibulum mattis",
+            "Sed mauris nisl"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Education",
+      "type": "Experience",
+      "items": [
+        {
+          "organization": "A Great University",
+          "location": "Atown, KS",
+          "description": "BS - Computer Science",
+          "concentration": "Computer Science",
+          "comment": "Summa Cum Laude",
+          "startYear": 2010,
+          "endYear": 2014
+        }
+      ]
+    },
+    {
+      "heading": "Awards",
+      "type": "Experience",
+      "items": [
+        {
+          "name": "Employee of the Year",
+          "location": "Acme Corporation",
+          "description": "Lorem ipsum dolor sit amet.",
+          "year": 2014
+        },
+        {
+          "name": "Intern of the Year",
+          "location": "A Great Place to Intern",
+          "description": "Consectetur adipiscing elit.",
+          "year": 2014
+        },
+        {
+          "name": "ABC Prize",
+          "location": "A Great University",
+          "description": "For the best XYZ.",
+          "year": 2014
+        }
+      ]
+    }
+  ]
+}
